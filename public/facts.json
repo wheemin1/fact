@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "lastUpdated": "2025-05-31",
+    "totalFacts": 30,
+    "categories": [
+      {
+        "id": "science",
+        "name": "Science",
+        "description": "Discover the wonders of scientific knowledge",
+        "count": 6
+      },
+      {
+        "id": "history",
+        "name": "History", 
+        "description": "Explore fascinating events from the past",
+        "count": 5
+      },
+      {
+        "id": "human-body",
+        "name": "Human Body",
+        "description": "Learn about our incredible bodies",
+        "count": 5
+      },
+      {
+        "id": "animals",
+        "name": "Animals",
+        "description": "Uncover secrets from the animal kingdom",
+        "count": 7
+      },
+      {
+        "id": "food",
+        "name": "Food",
+        "description": "Interesting facts about culinary culture",
+        "count": 7
+      }
+    ]
+  },
+  "facts": [
+    {
+      "id": 1,
+      "text": "A group of flamingos is called a 'flamboyance'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["birds", "collective nouns"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "text": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["preservation", "archaeology", "ancient egypt"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "text": "The human brain contains approximately 86 billion neurons.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["neuroscience", "brain", "numbers"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "text": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["egypt", "timeline", "space", "perspective"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "text": "A single cloud can weigh more than a million pounds.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["weather", "physics", "mass"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "text": "Octopuses have three hearts and blue blood.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["marine life", "anatomy", "circulatory system"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "text": "Bananas are berries, but strawberries aren't.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["botany", "classification", "fruits"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 8,
+      "text": "Your stomach gets an entirely new lining every 3-4 days because stomach acid would otherwise digest it.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["digestion", "regeneration", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 9,
+      "text": "The Great Wall of China isn't visible from space with the naked eye, contrary to popular belief.",
+      "category": "History",
+      "difficulty": "easy",
+      "tags": ["china", "myths", "space", "visibility"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 10,
+      "text": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
+      "category": "Science",
+      "difficulty": "easy",
+      "tags": ["astronomy", "speed of light", "sun"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 11,
+      "text": "Wombat droppings are cube-shaped.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["australian animals", "unique traits", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 12,
+      "text": "The shortest war in history lasted only 38-45 minutes between Britain and Zanzibar in 1896.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["warfare", "records", "africa", "british empire"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 13,
+      "text": "You can't taste food properly without smell - about 80% of taste is actually smell.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["senses", "taste", "smell", "neuroscience"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 14,
+      "text": "A group of pandas is called an 'embarrassment'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["pandas", "collective nouns", "mammals"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 15,
+      "text": "Carrots were originally purple, not orange.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["vegetables", "history", "agriculture", "genetics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 16,
+      "text": "It's impossible to hum while holding your nose closed.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["sound", "breathing", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 17,
+      "text": "The first computer bug was an actual bug - a moth stuck in a computer relay in 1947.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["computing", "history", "programming", "etymology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 18,
+      "text": "Sharks have been around longer than trees.",
+      "category": "Animals",
+      "difficulty": "hard",
+      "tags": ["evolution", "prehistoric", "marine life", "timeline"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 19,
+      "text": "Napoleon was actually average height for his time at 5'7\".",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["napoleon", "myths", "measurements", "france"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 20,
+      "text": "Your foot is the same length as the distance between your wrist and elbow.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["anatomy", "proportions", "measurements"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 21,
+      "text": "Pineapples take about 18-20 months to grow.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["tropical fruits", "agriculture", "growth"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 22,
+      "text": "A group of owls is called a 'parliament'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["birds", "collective nouns", "wisdom"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 23,
+      "text": "The human eye can distinguish about 10 million colors.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["vision", "color", "perception", "neuroscience"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 24,
+      "text": "Diamond rain falls on Neptune and Uranus.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["planets", "astronomy", "extreme weather", "chemistry"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 25,
+      "text": "Vikings actually reached America 500 years before Columbus.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["vikings", "exploration", "america", "columbus"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 26,
+      "text": "Chocolate was once used as currency by the Aztecs.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["chocolate", "aztecs", "currency", "history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 27,
+      "text": "Dolphins have names for each other - unique whistle signatures.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["dolphins", "communication", "intelligence", "marine life"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 28,
+      "text": "The world's largest snowflake on record was 15 inches wide.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["weather", "records", "snow", "crystallography"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 29,
+      "text": "A croissant is actually Austrian, not French - it was invented in Vienna.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["pastry", "austria", "france", "culinary history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 30,
+      "text": "A teaspoon of neutron star material would weigh about 6 billion tons.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["astronomy", "neutron stars", "physics", "extreme matter"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}

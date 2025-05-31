@@ -1,0 +1,1843 @@
+{  "metadata": {    "version": "4.0",
+    "lastUpdated": "2025-05-31",
+    "totalFacts": 300,
+    "categories": [
+      {
+        "id": "science",
+        "name": "Science",
+        "description": "Discover the wonders of scientific knowledge",
+        "count": 40
+      },
+      {
+        "id": "history",
+        "name": "History", 
+        "description": "Explore fascinating events from the past",
+        "count": 30
+      },
+      {
+        "id": "human-body",
+        "name": "Human Body",
+        "description": "Learn about our incredible bodies",
+        "count": 30
+      },
+      {
+        "id": "animals",
+        "name": "Animals",
+        "description": "Uncover secrets from the animal kingdom",
+        "count": 40
+      },
+      {
+        "id": "food",
+        "name": "Food",
+        "description": "Interesting facts about culinary culture",
+        "count": 30
+      },
+      {
+        "id": "space",
+        "name": "Space",
+        "description": "Journey through the cosmos and beyond",
+        "count": 30
+      }
+    ]
+  },
+  "facts": [
+    {
+      "id": 1,
+      "text": "A group of flamingos is called a 'flamboyance'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["birds", "collective nouns"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "text": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["preservation", "archaeology", "ancient egypt"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "text": "The human brain contains approximately 86 billion neurons.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["neuroscience", "brain", "numbers"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "text": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["egypt", "timeline", "space", "perspective"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "text": "A single cloud can weigh more than a million pounds.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["weather", "physics", "mass"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "text": "Octopuses have three hearts and blue blood.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["marine life", "anatomy", "circulatory system"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "text": "Bananas are berries, but strawberries aren't.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["botany", "classification", "fruits"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 8,
+      "text": "Your stomach gets an entirely new lining every 3-4 days because stomach acid would otherwise digest it.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["digestion", "regeneration", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 9,
+      "text": "The Great Wall of China isn't visible from space with the naked eye, contrary to popular belief.",
+      "category": "History",
+      "difficulty": "easy",
+      "tags": ["china", "myths", "space", "visibility"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 10,
+      "text": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
+      "category": "Science",
+      "difficulty": "easy",
+      "tags": ["astronomy", "speed of light", "sun"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 11,
+      "text": "Wombat droppings are cube-shaped.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["australian animals", "unique traits", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 12,
+      "text": "The shortest war in history lasted only 38-45 minutes between Britain and Zanzibar in 1896.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["warfare", "records", "africa", "british empire"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 13,
+      "text": "You can't taste food properly without smell - about 80% of taste is actually smell.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["senses", "taste", "smell", "neuroscience"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 14,
+      "text": "A group of pandas is called an 'embarrassment'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["pandas", "collective nouns", "mammals"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 15,
+      "text": "Carrots were originally purple, not orange.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["vegetables", "history", "agriculture", "genetics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 16,
+      "text": "It's impossible to hum while holding your nose closed.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["sound", "breathing", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 17,
+      "text": "The first computer bug was an actual bug - a moth stuck in a computer relay in 1947.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["computing", "history", "programming", "etymology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 18,
+      "text": "Sharks have been around longer than trees.",
+      "category": "Animals",
+      "difficulty": "hard",
+      "tags": ["evolution", "prehistoric", "marine life", "timeline"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 19,
+      "text": "Napoleon was actually average height for his time at 5'7\".",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["napoleon", "myths", "measurements", "france"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 20,
+      "text": "Your foot is the same length as the distance between your wrist and elbow.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["anatomy", "proportions", "measurements"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 21,
+      "text": "Pineapples take about 18-20 months to grow.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["tropical fruits", "agriculture", "growth"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 22,
+      "text": "A group of owls is called a 'parliament'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["birds", "collective nouns", "wisdom"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 23,
+      "text": "The human eye can distinguish about 10 million colors.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["vision", "color", "perception", "neuroscience"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 24,
+      "text": "Diamond rain falls on Neptune and Uranus.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["planets", "astronomy", "extreme weather", "chemistry"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 25,
+      "text": "Vikings actually reached America 500 years before Columbus.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["vikings", "exploration", "america", "columbus"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 26,
+      "text": "Chocolate was once used as currency by the Aztecs.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["chocolate", "aztecs", "currency", "history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 27,
+      "text": "Dolphins have names for each other - unique whistle signatures.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["dolphins", "communication", "intelligence", "marine life"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 28,
+      "text": "The world's largest snowflake on record was 15 inches wide.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["weather", "records", "snow", "crystallography"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 29,
+      "text": "A croissant is actually Austrian, not French - it was invented in Vienna.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["pastry", "austria", "france", "culinary history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },    {
+      "id": 30,
+      "text": "A teaspoon of neutron star material would weigh about 6 billion tons.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["astronomy", "neutron stars", "physics", "extreme matter"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 31,
+      "text": "Octopuses have three hearts and blue blood.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["octopus", "marine life", "biology", "circulation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 32,
+      "text": "There are more possible games of chess than there are atoms in the observable universe.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["mathematics", "chess", "combinatorics", "universe"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 33,
+      "text": "Wombat poop is cube-shaped to prevent it from rolling away.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["wombat", "biology", "adaptation", "weird facts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 34,
+      "text": "You can hear a blue whale's heartbeat from over 2 miles away.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["blue whale", "heart", "sound", "marine biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 35,
+      "text": "The smell of rain has a name: petrichor.",
+      "category": "Science",
+      "difficulty": "easy",
+      "tags": ["rain", "smell", "chemistry", "weather"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 36,
+      "text": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["cleopatra", "pyramid", "moon landing", "timeline"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 37,
+      "text": "Your tongue print is as unique as your fingerprint.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["tongue", "identification", "anatomy", "unique features"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 38,
+      "text": "A day on Venus is longer than a year on Venus.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["venus", "rotation", "solar system", "astronomy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 39,
+      "text": "Bananas are berries, but strawberries aren't.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["fruit", "classification", "botany", "berries"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 40,
+      "text": "The human brain uses about 20% of the body's total energy.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["brain", "energy", "metabolism", "neuroscience"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 41,
+      "text": "A group of ravens is called a 'murder'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["ravens", "collective nouns", "birds", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 42,
+      "text": "There's a giant cloud of alcohol in space that's 1000 times larger than our solar system.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["space", "alcohol", "nebula", "astronomy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 43,
+      "text": "The shortest war in history lasted only 38-45 minutes.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["war", "zanzibar", "britain", "records"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 44,
+      "text": "Your stomach gets completely new lining every 3-5 days.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["stomach", "regeneration", "biology", "healing"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 45,
+      "text": "Sloths only defecate once a week and lose up to 30% of their body weight when they do.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["sloth", "metabolism", "biology", "weird facts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 46,
+      "text": "Cashews grow attached to a fruit called a cashew apple.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["cashew", "fruit", "botany", "nuts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 47,
+      "text": "The first computer programmer was a woman: Ada Lovelace in 1843.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["programming", "ada lovelace", "computer history", "women in tech"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 48,
+      "text": "Oxford University is older than the Aztec Empire.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["oxford", "aztec", "education", "timeline"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 49,
+      "text": "Sharks have been around longer than trees.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["sharks", "evolution", "trees", "prehistoric"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 50,
+      "text": "One teaspoon of honey represents the life work of 12 bees.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["bees", "honey", "work", "insects"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 51,
+      "text": "Jupiter's moon Europa has twice as much water as Earth's oceans.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["europa", "jupiter", "water", "moons"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 52,
+      "text": "Your left lung is smaller than your right lung to make room for your heart.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["lungs", "heart", "anatomy", "asymmetry"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 53,
+      "text": "The electric chair was invented by a dentist.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["electric chair", "dentist", "invention", "execution"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 54,
+      "text": "Penguins have an organ above their eyes that converts seawater to freshwater.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["penguins", "adaptation", "water", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 55,
+      "text": "A group of pugs is called a 'grumble'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["pugs", "collective nouns", "dogs", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 56,
+      "text": "The hottest temperature ever recorded on Earth was in a laboratory: 5.5 trillion degrees Celsius.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["temperature", "laboratory", "physics", "extreme"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 57,
+      "text": "Pineapples take 2 years to grow.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["pineapple", "growth", "fruit", "agriculture"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 58,
+      "text": "Your bones are 4 times stronger than concrete.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["bones", "strength", "concrete", "structure"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 59,
+      "text": "There are more trees on Earth than stars in the Milky Way.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["trees", "stars", "milky way", "counting"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 60,
+      "text": "The immortal jellyfish can reverse its aging process and live forever.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["jellyfish", "immortality", "aging", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 61,
+      "text": "Nintendo was founded in 1889 as a playing card company.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["nintendo", "history", "playing cards", "gaming"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 62,
+      "text": "The word 'set' has the most different meanings in English with over 430 definitions.",
+      "category": "Weird & Wonderful",
+      "difficulty": "medium",
+      "tags": ["language", "english", "definitions", "words"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 63,
+      "text": "Saturn's moon Titan has lakes and rivers of liquid methane.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["titan", "saturn", "methane", "lakes"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 64,
+      "text": "Humans share 50% of their DNA with bananas.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["DNA", "genetics", "bananas", "evolution"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 65,
+      "text": "The Great Wall of China isn't visible from space with the naked eye.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["great wall", "china", "space", "myths"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 66,
+      "text": "Elephants are one of the few animals that can recognize themselves in a mirror.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["elephants", "intelligence", "self-awareness", "mirrors"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 67,
+      "text": "Vanilla flavoring comes from beaver scent glands.",
+      "category": "Food",
+      "difficulty": "hard",
+      "tags": ["vanilla", "beaver", "flavoring", "weird facts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 68,
+      "text": "Your body produces 25 million new cells every second.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["cells", "regeneration", "biology", "body"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 69,
+      "text": "The speed of light is 299,792,458 meters per second.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["light", "speed", "physics", "constants"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 70,
+      "text": "Lobsters were once considered poor people's food and fed to prisoners.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["lobster", "history", "social class", "food culture"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 71,
+      "text": "A mantis shrimp can punch with the force of a bullet.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["mantis shrimp", "punch", "force", "marine life"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 72,
+      "text": "The moon is gradually moving away from Earth at 3.8 cm per year.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["moon", "orbit", "earth", "astronomy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 73,
+      "text": "Your eye has the same pixels as a 576-megapixel camera.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["eyes", "vision", "camera", "technology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 74,
+      "text": "The first email was sent in 1971.",
+      "category": "Technology",
+      "difficulty": "easy",
+      "tags": ["email", "internet", "communication", "history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 75,
+      "text": "Sea otters hold hands while sleeping to prevent drifting apart.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["sea otters", "sleeping", "behavior", "cute"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 76,
+      "text": "The human heart beats about 3 billion times in an average lifetime.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["heart", "lifetime", "beats", "cardiovascular"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 77,
+      "text": "Bubble wrap was originally invented as wallpaper.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["bubble wrap", "invention", "wallpaper", "unexpected"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 78,
+      "text": "The largest living organism is a fungus in Oregon covering 2,385 acres.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["fungus", "organism", "oregon", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 79,
+      "text": "Polar bears have black skin under their white fur.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["polar bears", "skin", "fur", "adaptation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 80,
+      "text": "There are more bacteria in your mouth than people on Earth.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["bacteria", "mouth", "microbiome", "population"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 81,
+      "text": "The word 'alphabet' comes from the first two Greek letters: alpha and beta.",
+      "category": "Weird & Wonderful",
+      "difficulty": "easy",
+      "tags": ["alphabet", "greek", "etymology", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 82,
+      "text": "Mars has the largest volcano in the solar system: Olympus Mons.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["mars", "volcano", "olympus mons", "solar system"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 83,
+      "text": "A single cloud can weigh more than a million pounds.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["clouds", "weight", "water", "weather"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 84,
+      "text": "Cows have best friends and get stressed when separated.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["cows", "friendship", "social behavior", "emotions"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 85,
+      "text": "The human body contains about 37.2 trillion cells.",
+      "category": "Human Body",
+      "difficulty": "hard",
+      "tags": ["cells", "body", "biology", "numbers"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 86,
+      "text": "Ketchup was sold as medicine in the 1830s.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["ketchup", "medicine", "history", "weird facts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 87,
+      "text": "The internet weighs about the same as a strawberry.",
+      "category": "Technology",
+      "difficulty": "hard",
+      "tags": ["internet", "weight", "electrons", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 88,
+      "text": "T-Rex lived closer in time to humans than to Stegosaurus.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["t-rex", "stegosaurus", "timeline", "dinosaurs"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 89,
+      "text": "Hummingbirds are the only birds that can fly backwards.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["hummingbirds", "flight", "birds", "unique abilities"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 90,
+      "text": "Your brain is 2% of your body weight but uses 20% of your energy.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["brain", "energy", "metabolism", "efficiency"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 91,
+      "text": "The Eiffel Tower grows 6 inches taller in summer due to thermal expansion.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["eiffel tower", "thermal expansion", "physics", "temperature"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 92,
+      "text": "Dragonflies have a 95% hunting success rate, higher than sharks.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["dragonflies", "hunting", "success rate", "predators"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 93,
+      "text": "The first computer bug was an actual bug stuck in a computer in 1947.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["computer bug", "grace hopper", "debugging", "history"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 94,
+      "text": "There are more possible positions in chess than atoms in Earth.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["chess", "mathematics", "atoms", "combinations"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 95,
+      "text": "A group of unicorns is called a 'blessing'.",
+      "category": "Weird & Wonderful",
+      "difficulty": "easy",
+      "tags": ["unicorns", "collective nouns", "mythology", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 96,
+      "text": "The sun is white, not yellow. It appears yellow due to Earth's atmosphere.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["sun", "color", "atmosphere", "astronomy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 97,
+      "text": "Your fingernails grow faster on your dominant hand.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["fingernails", "growth", "dominant hand", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 98,
+      "text": "Pizza was the first food ordered online in 1994.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["pizza", "online ordering", "internet", "first"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 99,
+      "text": "The longest recorded flight of a chicken is 13 seconds.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["chicken", "flight", "records", "birds"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 100,
+      "text": "Your body produces enough saliva in a lifetime to fill two swimming pools.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["saliva", "lifetime", "production", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 101,
+      "text": "QWERTY keyboard was designed to slow down typing to prevent typewriter jams.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["qwerty", "keyboard", "typewriter", "design"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 102,
+      "text": "Dinosaurs lived on Earth for 165 million years. Humans have only been around for 300,000 years.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["dinosaurs", "humans", "timeline", "evolution"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 103,
+      "text": "A narwhal's tusk is actually a tooth that can grow up to 10 feet long.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["narwhal", "tusk", "tooth", "marine mammals"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 104,
+      "text": "The coldest temperature ever recorded was -144°F in Antarctica.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["temperature", "cold", "antarctica", "weather"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 105,
+      "text": "Avocados are fruits, not vegetables, and they're actually berries.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["avocado", "fruit", "berry", "classification"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 106,
+      "text": "You can't hum while holding your nose closed.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["humming", "nose", "breathing", "try it"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 107,
+      "text": "The first camera took 8 hours to take a single photograph.",
+      "category": "Technology",
+      "difficulty": "medium",
+      "tags": ["camera", "photography", "history", "exposure time"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 108,
+      "text": "Pluto was discovered in 1930 and declassified as a planet in 2006 - it never completed one orbit of the sun as a planet.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["pluto", "planet", "orbit", "classification"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 109,
+      "text": "Giraffes only need 5-30 minutes of sleep per day.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["giraffes", "sleep", "biology", "adaptation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 110,
+      "text": "The human nose can detect over 1 trillion different scents.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["nose", "smell", "senses", "detection"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 111,
+      "text": "Carrots were originally purple, not orange.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["carrots", "color", "history", "cultivation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 112,
+      "text": "The word 'byte' is a shortened version of 'binary digit eight'.",
+      "category": "Technology",
+      "difficulty": "hard",
+      "tags": ["byte", "binary", "computer science", "etymology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 113,
+      "text": "Male seahorses are the only males in the animal kingdom that give birth.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["seahorses", "pregnancy", "unique biology", "reproduction"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 114,
+      "text": "A bolt of lightning is 5 times hotter than the surface of the sun.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["lightning", "temperature", "sun", "electricity"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 115,
+      "text": "The human brain has the same consistency as tofu.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["brain", "consistency", "tofu", "texture"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 116,
+      "text": "Fortune cookies are not a Chinese tradition - they were invented in California.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["fortune cookies", "chinese", "california", "tradition"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 117,
+      "text": "There are more ways to arrange a deck of cards than there are seconds since the Big Bang.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["cards", "mathematics", "big bang", "combinations"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 118,
+      "text": "Tardigrades can survive in outer space and can live for 30 years without food.",
+      "category": "Animals",
+      "difficulty": "hard",
+      "tags": ["tardigrades", "space", "survival", "extremophiles"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 119,
+      "text": "The plastic things on the end of shoelaces are called aglets.",
+      "category": "Weird & Wonderful",
+      "difficulty": "easy",
+      "tags": ["shoelaces", "aglets", "terminology", "everyday objects"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },    {
+      "id": 120,
+      "text": "If you could fold a piece of paper 42 times, it would reach the moon.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["paper", "folding", "moon", "exponential growth"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 121,
+      "text": "A shrimp's heart is in its head.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["shrimp", "anatomy", "marine life", "heart"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 122,
+      "text": "Water can boil and freeze at the same time under certain conditions.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["water", "triple point", "physics", "states of matter"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 123,
+      "text": "Ancient Romans used urine as mouthwash.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["romans", "hygiene", "ancient history", "weird practices"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 124,
+      "text": "Your foot is the same length as the distance between your wrist and elbow.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["measurements", "body proportions", "anatomy", "try it"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 125,
+      "text": "Rats laugh when tickled.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["rats", "laughter", "emotions", "behavior"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 126,
+      "text": "Rhubarb grows so fast you can hear it growing.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["rhubarb", "growth", "plants", "sounds"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 127,
+      "text": "Black holes can spin at up to 1,000 times per second.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["black holes", "rotation", "astronomy", "extreme physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 128,
+      "text": "Your body contains enough iron to make a 3-inch nail.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["iron", "body elements", "chemistry", "metals"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 129,
+      "text": "Ants never sleep.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["ants", "sleep", "insects", "behavior"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 130,
+      "text": "Glass is technically a liquid, not a solid.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["glass", "states of matter", "chemistry", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 131,
+      "text": "Napoleon was actually average height for his time.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["napoleon", "height", "myths", "historical facts"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 132,
+      "text": "Apples are more effective at waking you up than coffee.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["apples", "caffeine", "energy", "natural sugars"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 133,
+      "text": "Saturn's rings are only about 30 feet thick.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["saturn", "rings", "thickness", "solar system"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 134,
+      "text": "You blink about 17,000 times per day.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["blinking", "eyes", "daily activities", "reflexes"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 135,
+      "text": "Koalas have fingerprints almost identical to humans.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["koalas", "fingerprints", "evolution", "similarity"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 136,
+      "text": "The Great Pyramid was the tallest building in the world for 3,800 years.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["pyramid", "height records", "ancient egypt", "architecture"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 137,
+      "text": "Lemons contain more sugar than strawberries.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["lemons", "strawberries", "sugar content", "taste"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 138,
+      "text": "Mercury is the only metal that's liquid at room temperature.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["mercury", "metals", "liquid", "chemistry"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 139,
+      "text": "The Milky Way galaxy smells like raspberries and rum.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["milky way", "smell", "chemistry", "space compounds"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 140,
+      "text": "Your hair grows faster in warm weather.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["hair", "growth", "temperature", "seasons"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 141,
+      "text": "Mosquitoes are the deadliest animals to humans.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["mosquitoes", "disease", "deadly animals", "insects"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 142,
+      "text": "Vikings never actually wore horned helmets.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["vikings", "helmets", "myths", "archaeology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 143,
+      "text": "Spicy food makes you sweat, which actually cools you down.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["spicy food", "sweating", "cooling", "body temperature"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 144,
+      "text": "Diamond rain falls on Jupiter and Saturn.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["diamonds", "jupiter", "saturn", "extreme weather"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 145,
+      "text": "You can't breathe and swallow at the same time.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["breathing", "swallowing", "reflexes", "try it"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 146,
+      "text": "A group of owls is called a 'parliament'.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["owls", "collective nouns", "birds", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 147,
+      "text": "The speed of sound is faster through solid objects than air.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["sound", "speed", "physics", "materials"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 148,
+      "text": "Ancient Egyptians used moldy bread as an antibiotic.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["egypt", "medicine", "antibiotics", "ancient knowledge"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 149,
+      "text": "Almonds are not nuts - they're seeds.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["almonds", "classification", "seeds", "botany"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 150,
+      "text": "A day on Mercury lasts 59 Earth days.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["mercury", "rotation", "day length", "solar system"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 151,
+      "text": "Your stomach acid is strong enough to dissolve metal.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["stomach acid", "digestion", "chemistry", "strength"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 152,
+      "text": "Cats have a third eyelid.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["cats", "eyelids", "anatomy", "protection"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 153,
+      "text": "Lightning strikes the Earth 100 times per second.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["lightning", "frequency", "weather", "electricity"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 154,
+      "text": "The first recorded recipe was for beer in ancient Mesopotamia.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["beer", "recipe", "mesopotamia", "brewing"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 155,
+      "text": "Watermelons are 92% water.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["watermelon", "water content", "hydration", "fruit"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 156,
+      "text": "The center of the Milky Way tastes like raspberries.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["milky way", "taste", "ethyl formate", "chemistry"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 157,
+      "text": "You lose about 8 pounds of dead skin cells every year.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["skin", "regeneration", "dead cells", "renewal"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 158,
+      "text": "Pigs can't look up at the sky.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["pigs", "anatomy", "neck", "movement"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 159,
+      "text": "The color orange was named after the fruit, not the other way around.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["orange", "color", "etymology", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 160,
+      "text": "Ice cream headaches happen because blood vessels in your brain expand rapidly.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["brain freeze", "blood vessels", "cold", "headache"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 161,
+      "text": "Butterflies taste with their feet.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["butterflies", "taste", "feet", "senses"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 162,
+      "text": "Sound waves can be used to levitate objects.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["sound", "levitation", "acoustic", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 163,
+      "text": "The ancient Greeks used stones as toilet paper.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["ancient greece", "hygiene", "toilet paper", "stones"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 164,
+      "text": "Tomatoes were once thought to be poisonous.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["tomatoes", "poison", "history", "misconceptions"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 165,
+      "text": "There are more galaxies in the universe than grains of sand on all Earth's beaches.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["galaxies", "universe", "sand", "scale"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 166,
+      "text": "Your ears never stop growing.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["ears", "growth", "aging", "cartilage"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 167,
+      "text": "Kangaroos can't walk backwards.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["kangaroos", "movement", "anatomy", "locomotion"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 168,
+      "text": "Diamonds can be made from peanut butter.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["diamonds", "peanut butter", "pressure", "carbon"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 169,
+      "text": "The Aztecs used cocoa beans as currency.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["aztecs", "cocoa", "currency", "chocolate"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 170,
+      "text": "Wasabi is actually colored horseradish in most restaurants.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["wasabi", "horseradish", "restaurants", "fake food"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 171,
+      "text": "A neutron star the size of a sugar cube would weigh 100 million tons.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["neutron star", "density", "mass", "extreme matter"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 172,
+      "text": "You can't tickle yourself because your brain anticipates it.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["tickling", "brain", "anticipation", "reflexes"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 173,
+      "text": "Snails can sleep for up to 3 years.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["snails", "hibernation", "sleep", "survival"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 174,
+      "text": "The human brain generates about 12-25 watts of electricity.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["brain", "electricity", "neurons", "energy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 175,
+      "text": "Bananas are radioactive.",
+      "category": "Food",
+      "difficulty": "medium",
+      "tags": ["bananas", "radioactive", "potassium", "natural radiation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 176,
+      "text": "The Great Wall of China uses rice as mortar.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["great wall", "rice", "mortar", "construction"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 177,
+      "text": "Lobsters were immortal until they evolved aging.",
+      "category": "Animals",
+      "difficulty": "hard",
+      "tags": ["lobsters", "immortality", "evolution", "aging"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 178,
+      "text": "The human eye can distinguish 10 million colors.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["eyes", "colors", "vision", "perception"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 179,
+      "text": "Raindrops are perfectly spherical only in zero gravity.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["raindrops", "gravity", "shape", "physics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 180,
+      "text": "The world's hottest chili pepper can kill you.",
+      "category": "Food",
+      "difficulty": "hard",
+      "tags": ["chili pepper", "spicy", "danger", "scoville scale"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 181,
+      "text": "Space is completely silent because there's no air to carry sound waves.",
+      "category": "Space",
+      "difficulty": "easy",
+      "tags": ["space", "silence", "sound", "vacuum"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 182,
+      "text": "Ancient Romans used to brush their teeth with urine.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["romans", "teeth", "urine", "hygiene"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 183,
+      "text": "Crocodiles can't stick their tongues out.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["crocodiles", "tongue", "anatomy", "reptiles"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 184,
+      "text": "Your body produces 1.5 liters of saliva every day.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["saliva", "production", "daily", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 185,
+      "text": "Absolute zero is the coldest possible temperature: -459.67°F.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["absolute zero", "temperature", "physics", "cold"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 186,
+      "text": "Chocolate chip cookies were invented by accident.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["cookies", "invention", "accident", "chocolate chip"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 187,
+      "text": "The Earth's core is as hot as the surface of the Sun.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["earth core", "temperature", "sun", "geology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 188,
+      "text": "Cleopatra lived closer to the Moon landing than to the building of the Great Pyramid.",
+      "category": "History",
+      "difficulty": "hard",
+      "tags": ["cleopatra", "timeline", "moon landing", "pyramid"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 189,
+      "text": "Flamingos can only eat with their heads upside down.",
+      "category": "Animals",
+      "difficulty": "medium",
+      "tags": ["flamingos", "eating", "anatomy", "adaptation"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 190,
+      "text": "Your brain uses 20% of your body's total energy.",
+      "category": "Human Body",
+      "difficulty": "medium",
+      "tags": ["brain", "energy", "metabolism", "consumption"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 191,
+      "text": "There are more bacteria in your body than human cells.",
+      "category": "Science",
+      "difficulty": "medium",
+      "tags": ["bacteria", "human cells", "microbiome", "biology"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 192,
+      "text": "The word 'muscle' comes from Latin meaning 'little mouse'.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["muscle", "etymology", "latin", "language"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 193,
+      "text": "Cinnamon comes from tree bark.",
+      "category": "Food",
+      "difficulty": "easy",
+      "tags": ["cinnamon", "tree bark", "spices", "natural"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 194,
+      "text": "The sun loses 4 million tons of mass every second.",
+      "category": "Space",
+      "difficulty": "hard",
+      "tags": ["sun", "mass loss", "nuclear fusion", "energy"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 195,
+      "text": "Penguins propose to their mates with pebbles.",
+      "category": "Animals",
+      "difficulty": "easy",
+      "tags": ["penguins", "mating", "pebbles", "courtship"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 196,
+      "text": "Your heart beats about 100,000 times per day.",
+      "category": "Human Body",
+      "difficulty": "easy",
+      "tags": ["heart", "beats", "daily", "cardiovascular"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 197,
+      "text": "The probability of you existing is roughly 1 in 400 trillion.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["probability", "existence", "statistics", "genetics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 198,
+      "text": "Stonehenge is older than the Egyptian pyramids.",
+      "category": "History",
+      "difficulty": "medium",
+      "tags": ["stonehenge", "pyramids", "age", "ancient monuments"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 199,
+      "text": "Mushrooms are more closely related to humans than to plants.",
+      "category": "Science",
+      "difficulty": "hard",
+      "tags": ["mushrooms", "evolution", "fungi", "genetics"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": 200,
+      "text": "The Great Red Spot on Jupiter is a storm that's been raging for at least 400 years.",
+      "category": "Space",
+      "difficulty": "medium",
+      "tags": ["jupiter", "great red spot", "storm", "longevity"],
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}

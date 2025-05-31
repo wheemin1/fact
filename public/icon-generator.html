@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PWA Icon Generator</title>
+</head>
+<body>
+    <h2>FactFact PWA Icon Generator</h2>
+    <canvas id="canvas192" width="192" height="192" style="border: 1px solid #000; margin: 10px;"></canvas>
+    <canvas id="canvas512" width="512" height="512" style="border: 1px solid #000; margin: 10px;"></canvas>
+    <br>
+    <button onclick="downloadIcon('canvas192', 'icon-192.png')">Download 192x192</button>
+    <button onclick="downloadIcon('canvas512', 'icon-512.png')">Download 512x512</button>
+
+    <script>
+        function drawIcon(canvasId, size) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // 배경 그라디언트
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#EAB308');
+            gradient.addColorStop(0.5, '#8B5CF6');
+            gradient.addColorStop(1, '#EC4899');
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+            
+            // 텍스트 "FF"
+            ctx.fillStyle = 'white';
+            ctx.font = `bold ${size * 0.3}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('FF', size/2, size/2);
+            
+            // 작은 원 장식
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
+            ctx.beginPath();
+            ctx.arc(size * 0.8, size * 0.2, size * 0.08, 0, 2 * Math.PI);
+            ctx.fill();
+        }
+        
+        function downloadIcon(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+        
+        // 캔버스에 아이콘 그리기
+        drawIcon('canvas192', 192);
+        drawIcon('canvas512', 512);
+    </script>
+</body>
+</html>

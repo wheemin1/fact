@@ -1,0 +1,105 @@
+
+{
+  "facts": [
+    {
+      "id": 1,
+      "text": "A group of flamingos is called a 'flamboyance'.",
+      "category": "Animals"
+    },
+    {
+      "id": 2,
+      "text": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible.",
+      "category": "Food"
+    },
+    {
+      "id": 3,
+      "text": "The human brain contains approximately 86 billion neurons.",
+      "category": "Human Body"
+    },
+    {
+      "id": 4,
+      "text": "Cleopatra lived closer in time to the Moon landing than to the construction of the Great Pyramid of Giza.",
+      "category": "History"
+    },
+    {
+      "id": 5,
+      "text": "A single cloud can weigh more than a million pounds.",
+      "category": "Science"
+    },
+    {
+      "id": 6,
+      "text": "Octopuses have three hearts and blue blood.",
+      "category": "Animals"
+    },
+    {
+      "id": 7,
+      "text": "Bananas are berries, but strawberries aren't.",
+      "category": "Food"
+    },
+    {
+      "id": 8,
+      "text": "Your stomach gets an entirely new lining every 3-4 days because stomach acid would otherwise digest it.",
+      "category": "Human Body"
+    },
+    {
+      "id": 9,
+      "text": "The Great Wall of China isn't visible from space with the naked eye, contrary to popular belief.",
+      "category": "History"
+    },
+    {
+      "id": 10,
+      "text": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth.",
+      "category": "Science"
+    },
+    {
+      "id": 11,
+      "text": "Dolphins have names for each other - they use unique whistle signatures.",
+      "category": "Animals"
+    },
+    {
+      "id": 12,
+      "text": "Chocolate was once used as currency by the Aztecs.",
+      "category": "Food"
+    },
+    {
+      "id": 13,
+      "text": "Humans share about 60% of their DNA with bananas.",
+      "category": "Human Body"
+    },
+    {
+      "id": 14,
+      "text": "The shortest war in history lasted only 38-45 minutes between Britain and Zanzibar in 1896.",
+      "category": "History"
+    },
+    {
+      "id": 15,
+      "text": "There are more possible games of chess than there are atoms in the observable universe.",
+      "category": "Science"
+    },
+    {
+      "id": 16,
+      "text": "A shrimp's heart is in its head.",
+      "category": "Animals"
+    },
+    {
+      "id": 17,
+      "text": "Carrots were originally purple, not orange.",
+      "category": "Food"
+    },
+    {
+      "id": 18,
+      "text": "You produce about 1.5 liters of saliva every day.",
+      "category": "Human Body"
+    },
+    {
+      "id": 19,
+      "text": "Napoleon was actually average height for his time at 5'7\".",
+      "category": "History"
+    },
+    {
+      "id": 20,
+      "text": "A teaspoon of neutron star material would weigh about 6 billion tons.",
+      "category": "Science"
+    }
+  ]
+}
